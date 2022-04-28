@@ -1,9 +1,15 @@
 import './App.css';
+import logo from './logo.svg'
 
 function App() {
   return (
-    <div style={{background-image: url('./abstract_blue_image.jpg')}}</div>
-    <p>matias</p>
+    
+    <div class='Back'>
+      <image src={logo}></image>
+
+    </div>
+        
+
   );
 }
 

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -8,15 +9,12 @@
 }
 
 .Back {
-  background-image: url(./abstract_blue_image.jpg);
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: repeat;
+  background-image: url(./blue_background.jpg);
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
   background-size: cover;
-
+  background-position: center;
 }
 
 
